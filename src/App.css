@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+}
+
+.moviesContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.movieContainer {
+  margin-top: 6rem;
+  background-color: bisque;
+  border: 1px solid goldenrod;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 10rem;
+}
+.actions {
+  display: flex;
+  flex-direction: column;
+  padding: 0.2rem;
+  height: 3.2rem;
+ justify-content: space-between; 
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.btn {
+  height: auto;
+  padding: 1em;
+}
+span {
+  width: 2rem;
+}
+  
+thead {
+  text-transform: uppercase;
+  background-color: rgb(219, 219, 219);
+}
+
+td {
+  padding: 5px 10px;
+}
+
+table {
+  border: 1px solid gray;
+}
+
+.comparatorContainer {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+tr:hover {
+  background-color: rgb(204, 214, 195);
+}
